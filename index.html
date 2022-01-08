@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tables de multiplications</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Tables de multiplications</h1>
+
+  <form>
+    <fieldset>
+      <legend>Réglages</legend>
+      <label for="mod">Modulo : </label>
+      <input type="number" value="70" name="mod" id="mod" step="any"/><br/>
+      <label for="table">Table : </label>
+      <input type="number" value="2" name="table" id="table" step="any"/></br>
+    </fieldset>
+    <fieldset>
+      <legend>Animation</legend>
+      <label for="mod-inc">Incrément du modulo : </label>
+      <input type="number" value="1" name="mod-inc" id="mod-inc" step="any"/></br>
+      <label for="table-inc">Incrément de la table : </label>
+      <input type="number" value="0" name="table-inc" id="table-inc" step="any"/></br>
+      <label for="interval">Intervalle (ms) : </label>
+      <input type="number" value="100" name="interval" id="interval"/></br>
+      <input type="submit" value="Lancer l'animation"/>
+      <input type="reset" value="Réinitialiser"/>
+    </fieldset>
+
+  </form>
+  <canvas></canvas>
+  <script src="script.js"></script>
+</body>
+
+</html>

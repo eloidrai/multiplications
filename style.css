@@ -1,0 +1,17 @@
+h1 {
+  font-family: sans-serif;
+  color: red;
+}
+
+canvas {
+  width: 800px;
+  height: 800px;
+}
+
+form {
+  float: right;
+}
+
+.disabled {
+  color: #444;
+}
